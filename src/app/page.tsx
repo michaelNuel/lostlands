@@ -1,5 +1,5 @@
-import Navbar from "../../Components/Navbar/Navbar";
 import Heropag from "./Sections/Heropage/Heropag";
+import Navbar from "./Sections/Navbar/Navbar";
 
 
 export default function Home() {
