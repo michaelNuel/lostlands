@@ -7,10 +7,10 @@ type NavbarlistProps = {
 
 export default function Navbarlist(props:NavbarlistProps) {
   return (
-    <ul className="flex justify-around">
+    <ul className="flex justify-around gap-7">
        {props.data.map(item => {
         return (
-          <li key={item.id}>{item.links}</li>
+          <li className="text-white text-base" key={item.id}>{item.links}</li>
         )
        })}
     </ul>
