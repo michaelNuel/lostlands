@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,600;6..12,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
 
 *{
   padding: 0;
@@ -10,12 +9,16 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Jost', sans-serif;
-}
+
 
 .hero{
   background-image:url(../../public/Group\ 1000001887.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wwa{
+  background-image:url(../../public/bg2.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,6 +39,8 @@ body{
 
 .btn{
   background-image: url(../../public/Group\ 1000001610.png);
+  height: 64px;
+  width:202px;
 }
 
 

@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <div className="bg-blue-950 border-transparent">
        <div className="container mx-auto">
-         <div className="flex justify-between gap-3 py-3">
+         <div className="flex justify-between items-center gap-3 py-3">
             <div>
                 <Image 
                   alt={"#"}
@@ -39,7 +39,7 @@ export default function Navbar() {
             </div>
 
             <div>
-                <button className="btn">
+                <button className="btn flex justify-center items-center">
                   <h2 className="text-white">Connect wallet</h2>
                 </button>
             </div>
