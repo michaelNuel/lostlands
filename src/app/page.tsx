@@ -1,4 +1,5 @@
 import Heropag from "./Sections/Heropage/Heropag";
+import Moreinfo from "./Sections/MoreInfo/Moreinfo";
 import Navbar from "./Sections/Navbar/Navbar";
 import WWA from "./Sections/WhoWeAre/WWA";
 
@@ -9,6 +10,7 @@ export default function Home() {
        <Navbar />
        <Heropag />
        <WWA />
+       <Moreinfo />
     </main>
   )
 }

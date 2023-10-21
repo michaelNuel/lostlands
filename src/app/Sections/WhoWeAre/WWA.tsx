@@ -5,7 +5,7 @@ export default function WWA() {
   return (
     <div className="wwa h-[900px] " >
       <div className="h-full container mx-auto">
-         <div className='flex justify-center  gap-20 h-full items-center'>
+         <div className='flex justify-center self-center gap-20 h-full items-center'>
            <div className=' flex flex-col w-45  gap-9'>
               <div className='flex mr-4 ml-4
 
