@@ -5,9 +5,11 @@ export default function WWA() {
   return (
     <div className="wwa h-[900px] " >
       <div className="h-full container mx-auto">
-         <div className='flex  gap-20 h-full'>
-           <div className='w-[580px] flex flex-col gap-9'>
-              <div>
+         <div className='flex justify-center  gap-20 h-full items-center'>
+           <div className=' flex flex-col w-45  gap-9'>
+              <div className='flex mr-4 ml-4
+
+              justify-center'>
                 <Image 
                 alt={"#"}
                 src={"/Unknown1.png"}
@@ -15,7 +17,7 @@ export default function WWA() {
                 height={200}
                 />
               </div>
-              <div>
+              <div className='flex ml-12 justify-end'>
                 <Image 
                 alt={"#"}
                 src={"/Unknown2.png"}
@@ -23,7 +25,7 @@ export default function WWA() {
                 height={200}
                 />
               </div>
-              <div>
+              <div className='flex mr-12 justify-start'>
                 <Image 
                 alt={"#"}
                 src={"/Unknown3.png"}
@@ -34,7 +36,7 @@ export default function WWA() {
            </div>
            <div className='flex flex-col mt-11 align-middle gap-7'>
              <div>
-                <p className='gradient-text text-[24px] leading-[32px] font-[600]'>Fully Immersive game</p>
+                <p className='gradient-tex text-[24px] leading-[32px] font-[600]'>Fully Immersive game</p>
              </div>
 
              <div>
