@@ -2,6 +2,7 @@ import Heropag from "./Sections/Heropage/Heropag";
 import HowitWorks from "./Sections/HowItWorks/HowitWorks";
 import Moreinfo from "./Sections/MoreInfo/Moreinfo";
 import Navbar from "./Sections/Navbar/Navbar";
+import Roadmap from "./Sections/Roadmap/Roadmap";
 import UniqueOffers from "./Sections/UniqueOffers/UniqueOffers";
 import WWA from "./Sections/WhoWeAre/WWA";
 
@@ -15,6 +16,7 @@ export default function Home() {
        <Moreinfo />
        <HowitWorks />
        <UniqueOffers />
+       <Roadmap />
     </main>
   )
 }

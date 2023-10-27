@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function UniqueOffers() {
   return (
-    <div className="h-[900px] bg-slate-950">
+    <div className="h-[900px] general">
       <div className="h-full container mx-auto">
         <div className="flex justify-center self-center gap-36 h-full items-center">
            <div className="relative">
