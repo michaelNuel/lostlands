@@ -6,7 +6,7 @@ export default function UniqueOffers() {
   return (
     <div className="h-[900px] general">
       <div className="h-full container mx-auto">
-        <div className="flex justify-center self-center gap-36 h-full items-center">
+        <div className="flex justify-center self-center gap-48 h-full items-center">
            <div className="relative">
               <Image 
                alt={"#"}
@@ -15,7 +15,7 @@ export default function UniqueOffers() {
                height={500}
               />
 
-              <div className="absolute top-14 -right-32">
+              <div className="absolute top-14 -right-20">
                 <Image 
                  alt={"#"}
                  src={"/side.png "}
