@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Roadmaprow1 from "./Roadmaprow1"
 import Roadmaprow2 from "./Roadmaprow2"
+import GradientBold from "@/app/Components/GradientText/GradientBold"
 
 export default function Roadmap() {
   const row1= [
@@ -37,7 +38,7 @@ export default function Roadmap() {
       <div className="h-full container mx-auto">
         <div className="flex  align-middle self-center flex-col h-full">
            <div className="grid self-center place-items-center w-[515px]">
-             <h2 className="  gradient-text font-[600] text-[56px]">OUR ROADMAP</h2>
+             <GradientBold bold="OUR ROADMAP" />
            </div>
 
            <div className="mt-10 flex justify-evenly items-center">
