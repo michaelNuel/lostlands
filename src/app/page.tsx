@@ -1,3 +1,4 @@
+import FAQs from "./Sections/FAQs/FAQs";
 import Heropag from "./Sections/Heropage/Heropag";
 import HowitWorks from "./Sections/HowItWorks/HowitWorks";
 import MeetTeam from "./Sections/MeettheTeam/MeetTeam";
@@ -19,6 +20,7 @@ export default function Home() {
        <UniqueOffers />
        <Roadmap />
        <MeetTeam />
+       <FAQs />
     </main>
   )
 }
