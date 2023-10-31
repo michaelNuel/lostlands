@@ -26,8 +26,8 @@ export default function FAQs() {
         }
     ]
   return (
-    <div className="h-[900px] general">
-       <div className="container mx-auto">
+    <div className="h-[600px] general">
+       <div className="container mx-auto h-full">
          <div className="flex  align-middle gap-10 justify-center self-center flex-col h-full">
           <div className="grid self-center place-items-center w-[1015px]">
             <GradientBold bold="FREQUENTLY ASKED QUESTIONS" />
